@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande immédiate sur WhatsApp."
+      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande/livraison immédiate sur WhatsApp."
     />
     <meta
       name="keywords"
@@ -21,7 +21,7 @@
     <meta property="og:title" content="Fresh Market | Supermarché à Casablanca" />
     <meta
       property="og:description"
-      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande immédiate sur WhatsApp."
+      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande/livraison immédiate sur WhatsApp."
     />
     <meta property="og:site_name" content="Fresh Market" />
     <meta property="og:locale" content="fr_MA" />
@@ -32,7 +32,7 @@
     <meta name="twitter:title" content="Fresh Market | Supermarché à Casablanca" />
     <meta
       name="twitter:description"
-      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande immédiate sur WhatsApp."
+      content="Fresh Market, supermarché de quartier à Casablanca ouvert 7j/7 jusqu'à 21h00. Snacks, biscuits, boissons, vaisselle, promos régulières et commande/livraison immédiate sur WhatsApp."
     />
     <meta name="twitter:image" content="assets/images/logo.jpeg" />
     <meta name="twitter:image:alt" content="Logo circulaire Fresh Market à Casablanca" />
@@ -154,6 +154,19 @@
               <a class="btn ghost" href="#offres" data-i18n="hero_cta_secondary"
                 >Voir les offres</a
               >
+              <a
+                class="btn ghost"
+                href="https://wa.me/?text=Bonjour%20Fresh%20Market%2C%20je%20veux%20une%20livraison%20s%27il%20vous%20pla%C3%AEt."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-link
+                data-i18n="hero_cta_delivery"
+              >
+                Commander en livraison
+              </a>
+            </div>
+            <div class="delivery-note" data-i18n="delivery_note">
+              Livraison disponible via WhatsApp sur Casablanca.
             </div>
             <div class="hero-meta">
               <div class="meta-card">
@@ -422,19 +435,30 @@
               </p>
             </details>
             <details class="faq-item">
-              <summary data-i18n="faq_q_payment">
-                Puis-je payer par carte bancaire ?
-              </summary>
-              <p data-i18n="faq_a_payment">
-                Oui, le paiement par carte bancaire est accepté en caisse.
-              </p>
-            </details>
-            <details class="faq-item">
               <summary data-i18n="faq_q_sunday">
                 Êtes-vous ouverts le dimanche ?
               </summary>
               <p data-i18n="faq_a_sunday">
                 Oui, nous sommes ouverts le dimanche jusqu’à 21h00.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq_q_delivery">
+                Proposez-vous la livraison ?
+              </summary>
+              <p class="faq-answer-delivery">
+                <span data-i18n="faq_a_delivery_prefix">
+                  Oui, livraison disponible via WhatsApp sur Casablanca.
+                </span>
+                <a
+                  class="faq-whatsapp"
+                  data-whatsapp-link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="faq_whatsapp_link"
+                >
+                  Ouvrir WhatsApp
+                </a>
               </p>
             </details>
             <details class="faq-item">
@@ -470,6 +494,12 @@
               <div class="contact-card">
                 <h3 data-i18n="contact_hours_label">Horaires</h3>
                 <p data-i18n="contact_hours_value">Ouvert jusqu'à 21h00.</p>
+              </div>
+              <div class="contact-card">
+                <h3 data-i18n="contact_delivery_label">Livraison</h3>
+                <p data-i18n="contact_delivery_value">
+                  Oui, commande et livraison rapide via WhatsApp.
+                </p>
               </div>
             </div>
             <a
