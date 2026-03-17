@@ -17,6 +17,7 @@
   --radius-md: 16px;
   --radius-sm: 10px;
   --max-width: 1150px;
+  --fab-offset: 84px;
 }
 
 *,
@@ -27,6 +28,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: #ffffff;
 }
 
 body {
@@ -39,6 +41,10 @@ body {
   background: #ffffff;
   color: var(--text-900);
   line-height: 1.6;
+}
+
+* {
+  forced-color-adjust: none;
 }
 
 body::before {
@@ -699,7 +705,7 @@ a {
 
 .footer-bottom {
   border-top: 1px solid var(--border-200);
-  padding: 18px 0 4px;
+  padding: 18px 0 calc(4px + var(--fab-offset));
   display: flex;
   justify-content: flex-end;
 }
